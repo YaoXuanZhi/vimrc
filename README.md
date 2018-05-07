@@ -8,14 +8,15 @@ pacman -S git vim
 
 在CentOS中安装
 ```sh
-pacman -S git vim
+yum install git
+yum install vim
 ``` 
 
 #### 自动Vim部署vimrc
 在终端下执行以下指令即可
 ```sh
 git clone https://github.com/YaoXuanZhi/vimrc.git vimrc
-cd vimrc && vim install.sh
+cd vimrc && sh install.sh
 ```
 
 最后在终端启动Vim，执行`:PluginInstall`，此时会自动下载其它vim插件 
