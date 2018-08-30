@@ -131,11 +131,13 @@ endif
 " 设置代码配色方案
 if g:isGUI
     " colorscheme jellybeans
-    colorscheme monokai
+    " colorscheme monokai
+    colorscheme space-vim-dark
     set background=dark
 else
     " colorscheme jellybeans 
-    colorscheme monokai 
+    " colorscheme monokai 
+    colorscheme space-vim-dark 
     set background=light
 endif
 
