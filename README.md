@@ -18,7 +18,8 @@ yum install vim
 在终端下执行以下指令即可
 ```sh
 git clone https://github.com/YaoXuanZhi/vimrc.git vimrc
-cd vimrc && sh install.sh
+cd vimrc
+(sudo) sh install.sh
 ```
 
-最后在终端启动Vim，执行`:PluginInstall`，此时会自动下载其它vim插件 
+最后在终端启动`(sudo) Vim`，执行`:PluginInstall`，此时会自动下载其它vim插件 
