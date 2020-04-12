@@ -1,4 +1,4 @@
->这是一个本人自用的vim快速部署仓库，依赖git来完成自动化部署，多用于Linux、Msys环境部署。注意，在Cmder下慎用，直接替换vimrc会有小几率会出现块状选择区，这个是因为Cmder的主题配置那边起了冲突，因此推荐手动安装Vim插件。
+>这是一个本人自用的vim快速部署仓库，依赖git来完成自动化部署，多用于Linux、Msys、termux环境部署。注意，在Cmder下慎用，直接替换vimrc会有小几率会出现块状选择区，这个是因为Cmder的主题配置那边起了冲突，因此推荐手动安装Vim插件。
 
 #### 安装Git和Vim
 >注意,最好先将home添加到windows系统的环境变量中,这样子,各种伪终端环境都可以用到同一份配置了
@@ -10,8 +10,8 @@ pacman -S git vim
 
 在CentOS中安装
 ```sh
-yum install git
-yum install vim
+yum/apt install git
+yum/apt install vim
 ``` 
 
 #### 自动Vim部署vimrc
